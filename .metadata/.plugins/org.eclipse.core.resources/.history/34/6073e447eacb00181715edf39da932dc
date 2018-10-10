@@ -1,0 +1,25 @@
+package com.nibi.springdata.transactionmanagement.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.nibi.springdata.transactionmanagement.entities.BankAccount;
+import com.nibi.springdata.transactionmanagement.repos.BankAccountRepository;
+
+public class BankAccountServiceImpl implements BankAccountService {
+
+	
+	@Autowired
+	BankAccountRepository repository;
+	
+	
+	@Override
+	public void transfer(int amount) {
+		// TODO Auto-generated method stub
+		
+		Optional<BankAccount> obamasAccount = repository.findById(1);
+
+	}
+
+}

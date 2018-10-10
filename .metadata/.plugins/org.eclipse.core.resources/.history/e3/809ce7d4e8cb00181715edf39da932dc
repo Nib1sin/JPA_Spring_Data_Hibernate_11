@@ -1,0 +1,5 @@
+package com.nibi.springdata.transactionmanagement.repos;
+
+public interface BankAccountRepository {
+
+}

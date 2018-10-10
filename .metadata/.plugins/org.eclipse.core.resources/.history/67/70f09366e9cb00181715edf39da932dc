@@ -1,0 +1,5 @@
+package com.nibi.springdata.transactionmanagement.service;
+
+public class BankAccountService {
+
+}
